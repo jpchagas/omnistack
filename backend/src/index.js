@@ -11,7 +11,7 @@ mongoose.connect('mongodb+srv://jpchagas:pegasos93@cluster0-fz8jq.mongodb.net/te
 });
 
 app.use(express.json());
-app.use(routes)
+app.use(routes);
 //Método HTTP: GET,POST,PUT, DELETE
 
 //Tipo de ParÂMETROS:
