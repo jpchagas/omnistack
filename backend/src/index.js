@@ -10,7 +10,7 @@ mongoose.connect('mongodb+srv://jpchagas:pegasos93@cluster0-fz8jq.mongodb.net/te
     useUnifiedTopology: true
 });
 
-app.use(express.json);
+app.use(express.json());
 app.use(routes)
 //Método HTTP: GET,POST,PUT, DELETE
 
